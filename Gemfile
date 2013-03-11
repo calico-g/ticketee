@@ -39,6 +39,10 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 group :test, :development do
+	gem 'pry-rails'
+	gem 'pry-doc'
+	gem 'launchy'
+	gem 'pry-debugger'
 	gem 'rspec-rails', '~> 2.11'
 end
 group :test do
