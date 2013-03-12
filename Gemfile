@@ -39,6 +39,8 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 group :test, :development do
+	gem 'devise', '2.1.0.rc'
+
 	gem 'pry-rails'
 	gem 'pry-doc'
 	gem 'launchy'
@@ -46,6 +48,7 @@ group :test, :development do
 	gem 'rspec-rails', '~> 2.11'
 end
 group :test do
+	gem 'devise', '2.1.0.rc'
 	gem 'capybara', '1.1.2'
 	gem 'factory_girl', '2.6.4'
 end
