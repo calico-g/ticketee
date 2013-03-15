@@ -1,6 +1,8 @@
 FactoryGirl.define do
 	factory :user do
-		email "ticketee@email.com"
+		#add sequencing emails here, this should fix that admin editing users test
+		sequence(:email) { |n| "ticketee#{n}@example.com"}
+		#email "ticketee@email.com"
 		password "password"
 		password_confirmation "password"
 
