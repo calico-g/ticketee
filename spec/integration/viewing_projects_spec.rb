@@ -6,7 +6,6 @@ feature "Viewing projects" do
 	let!(:project) { Factory(:project) }
 	let!(:project_2) { Factory(:project, :name => "Internet Explorer") }
 
-
 	before do
 		sign_in_as!(user)
 		define_permission!(user, :view, project)
