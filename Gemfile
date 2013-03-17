@@ -40,6 +40,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 group :test, :development do
 	gem 'devise', '2.1.0.rc'
+	gem 'cancan', '1.6.7'
 	gem 'email_spec', '1.2.1'
 	gem 'pry-rails'
 	gem 'pry-doc'
