@@ -11,8 +11,8 @@ class Project < ActiveRecord::Base
   end
 
   def self.for(user)
-  	user.admin? ? Project : Project.viewable_by(user)
-  end
+		user.admin? ? Project : Project.viewable_by(user)
+	end
 
 
 end
