@@ -1,10 +1,8 @@
 FactoryGirl.define do
 	factory :user do
-		#add sequencing emails here, this should fix that admin editing users test
 		sequence(:email) { |n| "ticketee#{n}@example.com"}
-		#email "ticketee@email.com"
-		password "password"
-		password_confirmation "password"
+		password "12345678"
+		password_confirmation "12345678"
 
 		factory :confirmed_user do
 			after_create do |user|

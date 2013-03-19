@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails'
 
 gem 'dynamic_form', '1.1.4'
 
@@ -39,6 +39,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 group :test, :development do
+	gem 'capybara', '1.1.2'
 	gem 'devise', '2.1.0.rc'
 	gem 'cancan', '1.6.7'
 	gem 'paperclip', '2.7.0'
@@ -54,4 +55,6 @@ group :test do
 	gem 'email_spec', '1.2.1'
 	gem 'capybara', '1.1.2'
 	gem 'factory_girl', '2.6.4'
+	gem 'simplecov', :require => false
+
 end
