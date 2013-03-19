@@ -2,6 +2,8 @@ Ticketee::Application.routes.draw do
 
   get "/admin/users/index"
 
+  resources :files
+
    namespace :admin do
      root :to => "base#index"
      resources :users do

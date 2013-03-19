@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'email_spec'
 
 feature 'Signing up' do
 	scenario 'Successful sign up' do
