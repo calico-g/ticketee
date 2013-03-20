@@ -16,7 +16,7 @@
         null,
         null,
         1,
-        41,
+        42,
         null,
         null
       ],
@@ -39,20 +39,20 @@
       "/home/calico/codefellows/ticketee/app/helpers/application_helper.rb": [
         1,
         1,
-        26,
-        26,
-        26,
+        28,
+        28,
+        28,
         null,
         null,
         null,
         null,
         1,
-        276,
+        292,
         null,
         null,
         1,
         25,
-        60,
+        70,
         null,
         null
       ],
@@ -70,6 +70,10 @@
         null
       ],
       "/home/calico/codefellows/ticketee/app/helpers/admin/users_helper.rb": [
+        1,
+        null
+      ],
+      "/home/calico/codefellows/ticketee/app/helpers/comments_helper.rb": [
         1,
         null
       ],
@@ -202,6 +206,38 @@
         null,
         null
       ],
+      "/home/calico/codefellows/ticketee/app/controllers/comments_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/home/calico/codefellows/ticketee/app/models/comment.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
       "/home/calico/codefellows/ticketee/app/controllers/files_controller.rb": [
         1,
         1,
@@ -237,7 +273,7 @@
         null,
         null,
         1,
-        69,
+        73,
         null,
         1,
         2,
@@ -278,7 +314,7 @@
         1,
         null,
         1,
-        30,
+        32,
         null,
         4,
         null,
@@ -296,11 +332,11 @@
         null,
         1,
         1,
-        100,
+        109,
         null,
         null,
         1,
-        140,
+        149,
         null,
         null,
         null,
@@ -353,6 +389,7 @@
         null,
         null,
         1,
+        20,
         null,
         null,
         1,
@@ -387,7 +424,7 @@
         1,
         null,
         1,
-        41,
+        44,
         null,
         1,
         null,
@@ -395,7 +432,7 @@
         null,
         null,
         1,
-        28,
+        31,
         null,
         null,
         1,
@@ -407,6 +444,7 @@
         null
       ],
       "/home/calico/codefellows/ticketee/app/models/ticket.rb": [
+        1,
         1,
         1,
         1,
@@ -429,8 +467,8 @@
         1,
         null,
         1,
-        76,
-        113,
+        82,
+        119,
         null,
         null,
         41,
@@ -449,6 +487,6 @@
         null
       ]
     },
-    "timestamp": 1363815467
+    "timestamp": 1363819392
   }
 }
