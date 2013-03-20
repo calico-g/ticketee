@@ -55,6 +55,7 @@ GEM
       execjs
     coffee-script-source (1.6.1)
     columnize (0.3.6)
+    database_cleaner (0.7.2)
     debugger (1.4.0)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.1.1)
@@ -87,6 +88,8 @@ GEM
     json (1.7.7)
     launchy (2.2.0)
       addressable (~> 2.3)
+    letter_opener (1.1.0)
+      launchy (~> 2.2.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -199,12 +202,14 @@ DEPENDENCIES
   cancan (= 1.6.7)
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
+  database_cleaner (= 0.7.2)
   devise (= 2.1.0.rc)
   dynamic_form (= 1.1.4)
   email_spec (= 1.2.1)
   factory_girl (= 2.6.4)
   jquery-rails
   launchy
+  letter_opener
   paperclip (= 2.7.0)
   pry-debugger
   pry-doc

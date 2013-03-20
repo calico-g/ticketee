@@ -39,6 +39,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 group :test, :development do
+	gem "letter_opener"
 	gem 'capybara', '1.1.2'
 	gem 'devise', '2.1.0.rc'
 	gem 'cancan', '1.6.7'
@@ -51,6 +52,7 @@ group :test, :development do
 	gem 'rspec-rails', '~> 2.11'
 end
 group :test do
+	gem 'database_cleaner', '0.7.2'
 	gem 'devise', '2.1.0.rc'
 	gem 'email_spec', '1.2.1'
 	gem 'capybara', '1.1.2'
