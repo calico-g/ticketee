@@ -87,6 +87,18 @@
       ],
       "/home/calico/codefellows/ticketee/app/helpers/tickets_helper.rb": [
         1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        0,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/home/calico/codefellows/ticketee/app/helpers/users_helper.rb": [
@@ -235,7 +247,9 @@
       "/home/calico/codefellows/ticketee/app/models/comment.rb": [
         1,
         1,
+        1,
         null,
+        1,
         1,
         1,
         1,
@@ -248,6 +262,10 @@
         null,
         1,
         2,
+        2,
+        null,
+        null,
+        1,
         2,
         null,
         null,
@@ -511,12 +529,12 @@
         null,
         null,
         1,
-        2,
+        6,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1363900709
+    "timestamp": 1363902544
   }
 }
