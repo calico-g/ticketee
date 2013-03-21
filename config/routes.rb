@@ -4,12 +4,13 @@ Ticketee::Application.routes.draw do
 
   resources :files
 
-   namespace :admin do
-     root :to => "base#index"
-     resources :users do
+  namespace :admin do
+    root :to => "base#index"
+    resources :users do
       resources :permissions
     end
-   end
+    resources :states
+  end
 
    devise_for :users, :controllers => { :registrations => "registrations" }
     get '/awaiting_confirmation',

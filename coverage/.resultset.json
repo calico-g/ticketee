@@ -23,15 +23,20 @@
       "/home/calico/codefellows/ticketee/app/controllers/application_controller.rb": [
         1,
         1,
-        null,
         1,
         null,
         1,
-        75,
-        75,
+        null,
+        1,
+        76,
+        76,
         6,
         6,
         null,
+        null,
+        null,
+        1,
+        376,
         null,
         null,
         null
@@ -47,7 +52,7 @@
         null,
         null,
         1,
-        306,
+        312,
         null,
         null,
         1,
@@ -67,6 +72,10 @@
         null,
         16,
         null,
+        null
+      ],
+      "/home/calico/codefellows/ticketee/app/helpers/admin/states_helper.rb": [
+        1,
         null
       ],
       "/home/calico/codefellows/ticketee/app/helpers/admin/users_helper.rb": [
@@ -150,6 +159,41 @@
         1,
         1,
         1,
+        null
+      ],
+      "/home/calico/codefellows/ticketee/app/controllers/admin/states_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/calico/codefellows/ticketee/app/models/state.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null,
         null
       ],
       "/home/calico/codefellows/ticketee/app/controllers/admin/users_controller.rb": [
@@ -306,7 +350,7 @@
         null,
         null,
         1,
-        76,
+        77,
         null,
         null,
         1,
@@ -371,7 +415,7 @@
         null,
         null,
         1,
-        159,
+        160,
         null,
         null,
         null,
@@ -522,19 +566,8 @@
         null,
         1,
         null
-      ],
-      "/home/calico/codefellows/ticketee/app/models/state.rb": [
-        1,
-        1,
-        null,
-        null,
-        1,
-        6,
-        null,
-        null,
-        null
       ]
     },
-    "timestamp": 1363902544
+    "timestamp": 1363904429
   }
 }
