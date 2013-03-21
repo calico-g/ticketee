@@ -9,9 +9,11 @@ class ProjectsController < ApplicationController
 	def index
 		@projects = Project.for(current_user).all
 	end
+
 	def new
 		@project = Project.new
 	end
+
 	def create
 		@project = Project.new(params[:project])
 		if @project.save
