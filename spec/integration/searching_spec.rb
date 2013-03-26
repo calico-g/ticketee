@@ -3,6 +3,7 @@ require 'spec_helper'
 feature "Searching" do
   let!(:user) { Factory(:confirmed_user) }
   let!(:project) { Factory(:project) }
+
   let!(:ticket_1) do
     state = State.create(:name => "Open")
     Factory(:ticket,
@@ -41,21 +42,21 @@ feature "Searching" do
       end
   end
 
-  # scenario "Finding by state" do
-  #   fill_in "Search", :with => "state:Open"
-  #   click_button "Search"
-  #   within("#tickets") do
-  #     page.should have_content("Create projects")
-  #     page.should_not have_content("Create users")
-  #   end
-  # end
+  scenario "Finding by state" do
+    fill_in "Search", :with => "state:Open"
+    click_button "Search"
+    within("#tickets") do
+      page.should have_content("Create projects")
+      page.should_not have_content("Create users")
+    end
+  end
 
-  # scenario "Clicking a tag goes to search results" do
-  #   click_link "Create projects"
-  #   click_link "iteration_1"
-  #   within("#tickets") do
-  #     page.should have_content("Create projects")
-  #     page.should_not have_content("Create users")
-  #   end
-  # end
+  scenario "Clicking a tag goes to search results" do
+    click_link "Create projects"
+    click_link "iteration_1"
+    within("#tickets") do
+      page.should have_content("Create projects")
+      page.should_not have_content("Create users")
+    end
+  end
 end
